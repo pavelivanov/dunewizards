@@ -27,7 +27,7 @@ export default function Home() {
           </div>
           <a
             className="flex items-center mt-24 py-3.5 px-8 bg-[#fff] rounded-full shadow-xl"
-            href="#"
+            href="https://chrome.google.com/webstore/detail/dune-pro-wizards/koapcfogemdhnfddhalbndagdkjfndjm?hl=en&authuser=0"
           >
             <Image className="mr-4" src="/images/chrome.svg" width="28" height="28" alt="" />
             <span className="-mt-0.5 text-2xl text-[#f1603f] font-bold">Add it on Chrome</span>
@@ -50,9 +50,27 @@ export default function Home() {
           <Image className="w-full max-w-[1200px]" src="/images/2.jpg" width="1648" height="1047" quality="100" alt="" />
         </div>
       </div>
-      <div className="pt-10 pb-14">
-        <div className="text-lg text-[#292968] text-center opacity-50">
-          Make <b>Wizards</b> great again
+      <div className="container flex items-center justify-between pt-10 pb-14">
+        <div className="w-[80px]" />
+        <div>
+          <div className="text-lg text-[#292968] text-center opacity-50">
+            Make <b>Wizards</b> great again
+          </div>
+        </div>
+        <div className="flex items-center space-x-4 pr-10">
+          <a
+            className="opacity-40 hover:opacity-70 transition duration-300"
+            href="https://twitter.com/pavelorso"
+            target="_blank"
+          >
+            <Image src="/images/twitter.svg" width="28" height="28" alt="" />
+          </a>
+          <a
+            className="opacity-40 hover:opacity-70 transition duration-300"
+            href="mailto:grammka@gmail.com"
+          >
+            <Image src="/images/mail.svg" width="24" height="24" alt="" />
+          </a>
         </div>
       </div>
     </main>
