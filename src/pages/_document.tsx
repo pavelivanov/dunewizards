@@ -40,6 +40,7 @@ const Mixpanel = () => (
           // Enabling the debug mode flag is useful during implementation,
           // but it's recommended you remove it for production
           mixpanel.init('7999e947fb2374f5af24bcb87fdaf2b4', {debug: true}); 
+          mixpanel.track('Visit Page');
         `,
       }
     }
